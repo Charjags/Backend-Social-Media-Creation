@@ -8,4 +8,4 @@ Thought Process:
 Req1:
 
 
-https://ibb.co/6n95CYL
+![1](https://ibb.co/6n95CYL)

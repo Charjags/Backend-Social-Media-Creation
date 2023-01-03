@@ -124,16 +124,6 @@ app.post('/login', (req, res) => {
     res.status(500).send(error);
   });
   });
-  //route to get all posts
-  app.get('/posts', (req, res) => {
-    Post.findAll()
-      .then((posts) => {
-        res.send(posts);
-      })
-      .catch((error) => {
-        res.status(500).send(error);
-      });
-  });
   
   // A route that creates a new post by inserting a title, description, and photo file into the database. This route uses S3 to handle the file upload.
   app.post('/posts', (req, res) => {
